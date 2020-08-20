@@ -1,0 +1,22 @@
+body {
+  background: #fff;
+}
+
+header {
+  background: #FAFAFA;
+  border-bottom: 1px solid #ccc;
+}
+
+header a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 25%;
+  display: inline-block;
+  margin-left: -3px;
+  text-align: center;
+  padding: 12px;
+  background: red fa;
+  background-color: #111;
+  background-font-size: 25px;
+}
+/*# sourceMappingURL=material.css.map */
