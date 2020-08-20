@@ -5,6 +5,11 @@ body{
   header{ 
     background: #FAFAFA;
     border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
  a{
         box-sizing: border-box;
         width: 25%;
@@ -19,4 +24,22 @@ body{
             font-size: 25px;
         }
     }
+}
+
+.container{
+    background: #FAFAFA;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 0;
+  
+    .card{
+        background: #fff;
+        width: 500px;
+        height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
+
 }
