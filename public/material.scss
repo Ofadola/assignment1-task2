@@ -39,11 +39,12 @@ body{
     
        .card{ background: #fff;
         width: 500px;
-        height: 500px;
+      
         border: 1px solid #ccc;
         border-radius: 2px;
         card-header{
             padding: 15px;
+            overflow: auto;
            
             .profile-img{
                 display: inline-block;
@@ -78,9 +79,34 @@ body{
                 position: relative;
                 
             }
-
-
         }
+        .content{
+            img{
+                width: 100%;
+}
+        }
+    .card-footer{
+        padding: 15px;
+        box-sizing: border-box;
+        overflow: auto;
+        .likes{
+            color: #111;
+            font-size: 12px;
+        }
+        .description{
+            
+            p{
+                font-size: 14px;
+                margin: 0;
+                .username{
+                    font-weight: 700;
+                }
+
+            }
+         
+        }
+   
+     }
     }
 
 }
